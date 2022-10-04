@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{06F55D83-9C1C-412F-95C4-5FD8B8347BEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{06F55D83-9C1C-412F-95C4-5FD8B8347BEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "анкета", "анкета", "{DC7B6AD8-40A3-4B09-B12C-E5B7A5160F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form", "Form\Form.csproj", "{EF8B91B6-F271-4A2F-967E-54D793D75869}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{06F55D83-9C1C-412F-95C4-5FD8B8347BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06F55D83-9C1C-412F-95C4-5FD8B8347BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06F55D83-9C1C-412F-95C4-5FD8B8347BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8B91B6-F271-4A2F-967E-54D793D75869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8B91B6-F271-4A2F-967E-54D793D75869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8B91B6-F271-4A2F-967E-54D793D75869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8B91B6-F271-4A2F-967E-54D793D75869}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF8B91B6-F271-4A2F-967E-54D793D75869} = {DC7B6AD8-40A3-4B09-B12C-E5B7A5160F84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A24A9A99-E7CF-4027-8EF6-1D739C9933DE}

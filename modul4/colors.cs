@@ -5,9 +5,8 @@
         Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
 
         var color = Console.ReadLine();
-        for (int i = 1; i < 5; i++)
+        for ( ; ; )
         {
-            Console.WriteLine("Iteration{0}", i);
 
             switch (Console.ReadLine())
             {

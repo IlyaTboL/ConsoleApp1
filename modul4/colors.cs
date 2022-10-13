@@ -5,9 +5,9 @@
         Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
 
         var color = Console.ReadLine();
-        for ( ; ; )
-        {
-
+        int k = 0;
+        while (k < 3)
+        { 
             switch (Console.ReadLine())
             {
                 case "red":

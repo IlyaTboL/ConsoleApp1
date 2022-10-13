@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modul4", "modul4\modul4.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "massiv", "massiv\massiv.csproj", "{4F60A676-9FD0-4950-89D7-6935347877FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matrix", "matrix\matrix.csproj", "{DEC23C67-7F7A-4F07-9C57-21F7C14DC8D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{4F60A676-9FD0-4950-89D7-6935347877FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F60A676-9FD0-4950-89D7-6935347877FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F60A676-9FD0-4950-89D7-6935347877FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC23C67-7F7A-4F07-9C57-21F7C14DC8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC23C67-7F7A-4F07-9C57-21F7C14DC8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC23C67-7F7A-4F07-9C57-21F7C14DC8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC23C67-7F7A-4F07-9C57-21F7C14DC8D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{EF8B91B6-F271-4A2F-967E-54D793D75869} = {DC7B6AD8-40A3-4B09-B12C-E5B7A5160F84}
 		{C87C2C44-0EA4-47EE-9550-C42F3FC9C8A5} = {6467D2F5-0773-4A1D-9054-4B7FD7B09BDE}
 		{4F60A676-9FD0-4950-89D7-6935347877FF} = {6467D2F5-0773-4A1D-9054-4B7FD7B09BDE}
+		{DEC23C67-7F7A-4F07-9C57-21F7C14DC8D2} = {6467D2F5-0773-4A1D-9054-4B7FD7B09BDE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A24A9A99-E7CF-4027-8EF6-1D739C9933DE}
